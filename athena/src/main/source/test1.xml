@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DZGAPS>
+	<OCTRL>
+		<respcode>00000</respcode>
+		<respmsg>交易成功</respmsg>
+		<zhqzlsh>010800</zhqzlsh>
+	</OCTRL>
+	<OCTRL>
+		<respcode>00000</respcode>
+		<respmsg>交易成功</respmsg>
+		<zhqzlsh>010800</zhqzlsh>
+	</OCTRL>
+	<AreaNo></AreaNo>
+	<BalanceAmt>0.00</BalanceAmt>
+	<DebtAmt>0.00</DebtAmt>
+	<OtherAmt>0.00</OtherAmt>
+	<LateFee></LateFee>
+	<OperType></OperType>
+	<UserName>电业公司（热电）</UserName>
+	<UserMark></UserMark>
+	<AccountTerm>1</AccountTerm>
+	<Apex1>37414</Apex1>
+	<Apex2></Apex2>
+</DZGAPS>     

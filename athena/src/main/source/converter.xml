@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="DIRECT_CONVERTER" class="com.ccb.testcenter.athena.dataprocess.convert.DirectConverter">
+	</bean>
+	<bean id="CONSTANT_CONVERTER" class="com.ccb.testcenter.athena.dataprocess.convert.ConstantConverter">
+	</bean>
+<!--<bean id="KV_CONVERTER" class="com.ccb.testcenter.athena.dataprocess.convert.KVConverter">
+	</bean> -->
+	
+	<bean id="Dep_AcFrz_MdTp_Cd_Converter" class="com.ccb.testcenter.athena.dataprocess.convert.KVConverter">
+		<property name="keyValues">
+			<map>
+				<entry key="1" value=""/>
+				<entry key="2" value="01"/>
+				<entry key="3" value="02"/>
+			</map>
+		</property>
+	</bean>
+	<bean id="Dep_Frz_TpCd_Converter" class="com.ccb.testcenter.athena.dataprocess.convert.KVConverter">
+		<property name="keyValues">
+			<map>
+				<entry key="0" value="25"/>
+				<entry key="1" value="26"/>
+				<entry key="2" value="62"/>
+				<entry key="3" value="63"/>
+			</map>
+		</property>
+	</bean>
+</beans>

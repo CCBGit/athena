@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="SA0213800-A0182S303" class="com.ccb.testcenter.athena.dataprocess.mapping.ServiceMapping">
+		<constructor-arg name="mapName" value="SA0213800-A0182S303" />
+		<constructor-arg name="serviceId" value="A0182S303" />
+		<constructor-arg name="mapRequest" value="true"/>
+		<constructor-arg name="mapResponse" value="false" />
+	</bean>
+	<bean id="SA0106103-A0182S501" class="com.ccb.testcenter.athena.dataprocess.mapping.ServiceMapping">
+		<constructor-arg name="mapName" value="SA0106103-A0182S501" />
+		<constructor-arg name="serviceId" value="A0182S501" />
+		<constructor-arg name="mapRequest" value="true"/>
+		<constructor-arg name="mapResponse" value="false" />
+	</bean>
+</beans>
